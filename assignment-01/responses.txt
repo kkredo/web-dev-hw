@@ -1,0 +1,12 @@
+1. The web is different than the internet in that the web is a portion of the internet. The internet is composed of multiple networks, the web
+being one of them. Each internet computer is independent, but the web is interconnected via hyperlinks.
+
+2. The internet functions as a large infrastructure of networks. Computers are not inherently connected to each other but can be connected
+via wires or more likely, wireless options such as Wi-Fi or Bluetooth. However, on a larger scale computers must be connected via routers, 
+modems, and ISP's. This creates a huge network of connectivity.
+
+3. A directory is basically a file on a computer. It is a location where information about files is being held where related files are held 
+together. 
+
+4. Using a VCS provides a number of benefits including better workflow and collaboration of projects, better saving and storing of files, 
+restoring work, and better backup of work. 
