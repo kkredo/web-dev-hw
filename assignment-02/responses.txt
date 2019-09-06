@@ -1,0 +1,20 @@
+Kyle Kredo
+
+1. Data travels through the internet by chopping said data into smaller pieces
+known as packets. Each packet travels through the network in a series of hops.
+First the packets go through a wireless router, then to a modem, hops to an ISP,
+long haul provider using BGP (Border Gateway Patrol) and then to the recipient's
+ISP where the packets are then put back into a coherent message.
+
+2. The relationship between an IP address and DNS is that the DNS translates
+domain names to the appropriate IP address and likewise connects IP addresses to
+their respective domain names.
+
+3. A cookie is a text string that web servers send and your browser stores. The
+browser sends the cookie back to the server when the page is returned to. Helps
+track access and identification of users.
+
+4. - Protocol
+   - Domain name
+   - Path
+   
