@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Jomolhari|Yeon+Sung&display=swap');
+/* Page-Wide */
+* {
+  font-family: 'Jomolhari', serif;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+p, a {
+  margin-bottom: 3em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-container {
+  background-color: #cdb79e;
+  padding: 3em;
+  margin: 1em;
+}
+
+
+/* Title Content */
+#title {
+  font-family: 'Yeon Sung', cursive;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5em;
+  margin-top: -1em;
+}
+#title h1 {
+  font-family: 'Yeon Sung', cursive;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  margin-bottom: 0em;
+  color: rgb(0, 0, 0);
+}
+
+#title h2 {
+  font-family: 'Yeon Sung', cursive;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  margin-top: 1em;
+  color: rgb(0, 0, 0);
+}
+
+#title h3 {
+  font-family: 'Yeon Sung', cursive;
+  font-size: 1.3em;
+  color: rgb(0, 0, 0);
+  margin-top: .1em;
+}
+
+#title p {
+  font-style: italic;
+}
+
+/* Paragraph Content */
+.content {
+
+  font-size: 1.2em;
+  text-indent: 1.5em;
+  line-height: 1.45em;
+  font-weight: 520;
+}
+.content p:first-child {
+  text-indent: 0;
+}
+.content p:first-of-type:first-letter {
+  font-family: 'Yeon Sung', cursive;
+  font-size: 4em;
+  letter-spacing: .5px;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+}
+
+
+/*page numbers*/
+.center {
+ text-align: center
+
+}
+
+
+
+/* Decorative Line Divider */
+.divider {
+  border-bottom: 3px solid rgb(0,0,0);
+  width: 69%;
+  margin: 4em auto;
+}
+
+
+/* "Read More!" Button */
+#button-container {
+  width: 12em;
+  height: 4.5em;
+  margin: auto;
+}
+.button p {
+  font-size: 1.25em;
+  text-align: center;
+  color: #FFFFFF;
+}
+.button p:active {
+  color: rgb(255,200,80);
+}
+.button {
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  border-color: #8f8b8b #383636 #383636 #8f8b8b;
+  border-width: 4px 8px 8px 4px;
+  border-style: solid;
+}
+.button:hover {
+  font-style: italic;
+}
+.button:active {
+  background-color: rgb(132,130,120);
+  border-color: #483635 #8f8b8b #8f8b8b #483635;
+  border-width: 8px 6px 6px 8px;
+}
+
+.align-center {
+  position: absolute;
+  left: 54px;
+  top: 75px;
+  opacity: 0.69;
+}
