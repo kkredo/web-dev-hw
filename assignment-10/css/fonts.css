@@ -1,9 +1,5 @@
-/* From the Google Fonts Library */
 @import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
+/*Paragraph Font */
 
-@font-face {
-  font-family: 'Yeon Sung', cursive;
-  src: url('../fonts/Yeon Sung.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+/*Title Font*/
