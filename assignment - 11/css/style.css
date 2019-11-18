@@ -1,0 +1,100 @@
+/* -----------------
+|   ELEMENT STYLE   |
+ ----------------- */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');
+
+
+body {
+  background-color: black;
+  margin: 0;
+  font-family: 'Modular', sans-serif;
+  font-size: 1.10em;
+  color: #930;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+}
+
+#title h1 {
+    font-family: 'Modular', sans-serif;
+    font-size: 5em;
+    color: #F79420
+
+}
+#title h2 {
+  font-family: 'Modular', sans-serif;
+  font-size: 3em;
+  color: #F79420
+  
+}
+/* ---------------
+|   THE SIDEBAR   |
+ --------------- */
+.sidebar {
+  background-color: #930;
+
+    width: 175px;
+    padding: 50px;
+  height: 75%;
+  position: fixed;
+  top: 325px;
+  left: 0;
+}
+
+
+.site-logo {
+  background-color: transparent;
+
+
+    margin: 0px auto 40px;
+}
+.site-logo:hover {
+  background-color: #959;
+}
+.site-logo #logo {
+  width: 150px;
+  height: 120px;
+    margin: 10px;
+}
+
+
+#site-navigation a {
+  color: #FFF;
+  display: block;
+  margin: 0.4em 0;
+}
+#site-navigation a:hover {
+  text-indent: 0.1em;
+}
+
+#social-links {
+  background-color: inherit;
+  width: inherit;
+
+  position: inherit;
+  bottom: 20px;
+}
+#social-links img {
+  background-color: #930;
+  width: 24%;
+  height: auto;
+  float: left;
+}
+#social-links img:hover {
+  background-color: #FFF;
+}
+
+ /* ---------------------
+ |   MAIN CONTENT AREA   |
+  --------------------- */
+.main-content {
+  border-color: inherit;
+    margin-left: 280px;
+  padding: 1px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
