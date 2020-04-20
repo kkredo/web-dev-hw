@@ -1,0 +1,111 @@
+
+<html>
+
+    <body>
+
+      <script src="scripts/three.js"></script>
+       <script src="scripts/GLTFLoader.js"></script>
+      <script src="scripts/trackballcontrol.js"></script>
+        <script>
+//Eberhard Graether / http://egraether.com/ used alot of this guys code to make sure the mouse control worked
+// click and drag mouse to move
+            var camera, controls, scene, renderer;
+            init();
+
+            animate();
+
+            function init(){
+
+                camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 1000);
+
+                camera.position.z = 500;
+
+                controls = new THREE.TrackballControls( camera );
+                controls.addEventListener('change', render);
+
+                scene = new THREE.Scene();
+
+                var geometry = new THREE.CubeGeometry(100,100,100);
+                var material = new THREE.MeshNormalMaterial();
+
+                var mesh = new THREE.Mesh( geometry, material); //mesh sends in geo and material values to the scene
+                mesh.position.x = 75;
+                scene.add(mesh);
+
+
+                var mesh = new THREE.Mesh( geometry, material);
+                mesh.position.x = -75;
+                scene.add(mesh);
+
+                renderer = new THREE.WebGLRenderer();
+                renderer.setSize(window.innerWidth, window.innerHeight)
+                document.body.appendChild(renderer.domElement);
+
+            }
+
+            function animate(){
+
+                requestAnimationFrame( animate );
+
+                controls.update();
+
+            }
+
+            function render(){
+
+                renderer.render( scene, camera );
+
+            }
+/*
+            var scene = new THREE.Scene()
+      scene.overrideMaterial = new THREE.MeshBasicMaterial({
+          color: 'green'
+      });
+      scene.background = new THREE.Color('grey');
+      var camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, .1, 1000)
+      var renderer = new THREE.WebGLRenderer()
+      camera.position.x = 100
+      camera.position.y = -100
+      camera.position.z = 590
+
+
+      renderer.setClearColor(0xdddddd)
+      renderer.setSize(window.innerWidth, window.innerHeight)
+
+      document.body.appendChild(renderer.domElement)
+      var loader = new THREE.GLTFLoader();  //this is not a constructor?
+
+      // change to the name of your glb
+      loader.load('snowonly.glb', function(gltf) {
+
+          scene.add(gltf.scene);
+
+      }, undefined, function(error) {
+
+          console.error(error);
+
+      });
+      var rotation = 0
+
+      function spinCamera() {
+          rotation += 0.001
+          camera.position.z = Math.sin(rotation) * 80;
+          camera.position.x = Math.cos(rotation) * 80;
+          camera.lookAt(scene.position)
+      }
+      var render = function() {
+
+          requestAnimationFrame(render);
+          spinCamera();
+
+          renderer.render(scene, camera);
+      };
+
+      render();
+*/
+
+        </script>
+        <a href="./index.html">Index</a>
+        <a href="./model.html">Model</a>
+    </body>
+</html>
