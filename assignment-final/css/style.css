@@ -1,5 +1,5 @@
 /* Style the page: */
-html,body
+html
 {
     width: 100%;
     margin: 0px;
@@ -15,11 +15,12 @@ body {
 
 }
 .card {
-        width: 1px;
-        height: 1px;
+        width: -1px;
+        height: -1px;
         position: relative;
         display: inline-block;
         margin: -60px;
+        top: 1px;
     }
     .card .img-top {
         display: none;
