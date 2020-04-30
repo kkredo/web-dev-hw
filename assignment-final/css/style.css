@@ -15,8 +15,8 @@ body {
 
 }
 .card {
-        width: 10px;
-        height: 10px;
+        width: 1px;
+        height: 1px;
         position: relative;
         display: inline-block;
         margin: -60px;
