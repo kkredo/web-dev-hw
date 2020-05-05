@@ -19,18 +19,21 @@ body {
         height: -1px;
         position: relative;
         display: inline-block;
-        margin: -60px;
-        top: 1px;
+        margin: -10px;
+        top: -1px;
+        left: 0;
     }
     .card .img-top {
         display: none;
         position: absolute;
-        top: 0;
+        top: -1px;
         left: 0;
+        margin: -10px;
 
     }
     .card:hover .img-top {
         display: inline;
+        
     }
 /* Set your header design: */
 header {
